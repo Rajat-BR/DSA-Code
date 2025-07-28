@@ -1,6 +1,6 @@
 #Given a binary array, find the max consecutive 1s in the array
 nums = [1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0]
-def maxx(nums): # TC is O(N) SC is also O(1) this is optimal
+def MaxConsecutiveOnes(nums): # TC is O(N) SC is also O(1) this is optimal
     count = 0
     max_count = 0 
     for i in nums:
@@ -13,4 +13,4 @@ def maxx(nums): # TC is O(N) SC is also O(1) this is optimal
 
     return (max_count)
 
-print(maxx(nums))
+print(MaxConsecutiveOnes(nums))
