@@ -1,5 +1,5 @@
 # 121 -> true 
-# -121 -> False (Backwards of -121 id 121-)
+# -121 -> False (Backwards of -121 is 121-)
 
 def is_palindrome(x):
     initial_value = x
