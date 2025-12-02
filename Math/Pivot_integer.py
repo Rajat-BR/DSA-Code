@@ -34,3 +34,4 @@ def pivot(n):
     return -1
 
 print(pivot(8))
+
